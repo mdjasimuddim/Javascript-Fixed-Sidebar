@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: blueviolet;
+    /* height: 60px;
+    width: 100%;
+    box-sizing: border-box; */
+    padding: 20px 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+#bar-icone{
+    font-size: 2.4rem;
+    color: white;
+    float:right;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+.sidebar{
+    width: 300px;
+    height: 750px;
+    background-color: rgb(22,14,29);
+    position: fixed;
+    transition: 0.5s;
+    text-align: center;
+}
+.sidebarclose{
+    width: 0px;
+    height: 750px;
+    background-color: rgb(22,14,29);
+    position: fixed;
+    transition: 0.5s;
+}
+.nav{
+    text-decoration: none;
+}
+.nav a{
+    display: none;
+    color: #fff;
+    font-size: 22px;
+    text-transform: capitalize;
+    text-decoration: none;
+    margin-top: 30px;
+    font-weight: 700;
+}
+.nav a.open{
+    display: block;
+}
